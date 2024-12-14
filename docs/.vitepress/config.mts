@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/vitepress-actions/",
   title: "VitePress Actions",
   description: "A VitePress Site",
-  base: "/vitepress-actions/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
